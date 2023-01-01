@@ -1,0 +1,31 @@
+.home {
+  padding: 30px;
+  overflow: hidden;
+}
+.home__cards-container {
+  /* display: flex;
+  flex-wrap: wrap; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  gap: 30px 10px;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .home__cards-container {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .home__cards-container {
+    grid-template-columns: 1fr;
+    align-items: center;
+  }
+}

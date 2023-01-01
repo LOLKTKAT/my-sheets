@@ -1,0 +1,25 @@
+.search-input__container {
+}
+.search-input__input:focus {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.search-input__input {
+  width: 280px;
+  height: 40px;
+  border: 3px solid black;
+  border-radius: 2px;
+  outline: none;
+  -webkit-box-shadow: 3px 3px 0px 1px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 3px 3px 0px 1px rgba(0, 0, 0, 1);
+  box-shadow: 3px 3px 0px 1px rgba(0, 0, 0, 1);
+  padding: 0 10px 0 34px;
+  transition: 100ms ease-in-out;
+}
+.search-input__search-glass {
+  position: relative;
+  right: 270px;
+  top: 3px;
+  opacity: 0.6;
+}

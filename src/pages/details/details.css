@@ -1,0 +1,50 @@
+.details-page {
+  padding: 30px 30px 0 30px;
+}
+
+.details-page__heading {
+  margin: 48px 0px 48px 0;
+}
+
+.download-all-btn {
+  background-color: #dd7dff;
+  padding: 8px 24px 8px 24px;
+  font-weight: 700;
+  color: white;
+  border-radius: 2px;
+  -webkit-box-shadow: 3px 3px 0px 1px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 3px 3px 0px 1px rgba(0, 0, 0, 1);
+  box-shadow: 3px 3px 0px 1px rgba(0, 0, 0, 1);
+  cursor: pointer;
+  transition: 75ms ease-in;
+}
+.download-all-btn:hover {
+  transform: translateY(-5px);
+  background-color: #c569e7;
+}
+
+.detail-page__table-heading {
+  display: flex;
+  justify-content: space-between;
+  margin: 48px 0 18px 0;
+  align-items: center;
+}
+
+.detail-page__table-row {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid hsla(0, 0%, 0%, 0.08);
+  margin: 0px 0 16px 0;
+  padding: 10px 32px 10px 32px;
+  border-radius: 10px;
+  align-items: center;
+}
+.detail-page__table-row-heading {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.detail-page__table-row-course-info {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}

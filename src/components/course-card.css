@@ -1,0 +1,148 @@
+.x {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.course-card__container {
+  border: 3px solid black;
+  width: 400px;
+  border-radius: 16px;
+  height: 360px;
+  transition: 100ms ease-out;
+  transform: scale(92%);
+}
+.course-card__container:hover {
+  cursor: pointer;
+}
+
+.course-card__poster-container {
+  height: 65%;
+  border-radius: 15px 15px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.course-card__poster {
+  height: 100%;
+}
+.course-card__info {
+  border-top: 3px solid black;
+  padding: 16px;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.course-card__info {
+  text-decoration: none;
+  color: black;
+}
+
+.course-card__heading {
+  margin-top: 5px;
+  color: black;
+}
+.course-card__border1 {
+  position: relative;
+  border: 3px solid black;
+  border-radius: 16px;
+  width: 400px;
+  height: 360px;
+  left: 10px;
+  top: -310px;
+  border-top: 0px;
+  border-left: 0px;
+}
+.course-card__border2 {
+  position: relative;
+  border: 3px solid black;
+  border-top: 0px;
+  border-left: 0px;
+  border-radius: 16px;
+  width: 400px;
+  height: 360px;
+  left: 4px;
+  top: -675px;
+}
+
+@media only screen and (max-width: 1260px) {
+  .x {
+    height: 300px;
+    width: 350px;
+  }
+  .course-card__container {
+    transform: scale(85%);
+  }
+}
+
+@media only screen and (max-width: 1260px) {
+  .course-card__container {
+    transform: scale(70%);
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .x {
+    height: 400px;
+    width: 400px;
+  }
+  .course-card__container {
+    transform: scale(95%);
+  }
+}
+@media only screen and (max-width: 860px) {
+  .x {
+    height: 320px;
+    width: 320px;
+  }
+  .course-card__container {
+    transform: scale(80%);
+  }
+}
+@media only screen and (max-width: 755px) {
+  .x {
+    height: 250px;
+    width: 300px;
+  }
+  .course-card__container {
+    transform: scale(70%);
+  }
+}
+@media only screen and (max-width: 670px) {
+  .x {
+    height: 220px;
+    width: 240px;
+  }
+  .course-card__container {
+    transform: scale(60%);
+  }
+}
+@media only screen and (max-width: 560px) {
+  .x {
+    height: 180px;
+    width: 200px;
+  }
+  .course-card__container {
+    transform: scale(50%);
+  }
+}
+@media only screen and (max-width: 500px) {
+  .x {
+    height: 380px;
+    width: 380px;
+  }
+  .course-card__container {
+    transform: scale(95%);
+  }
+}
+@media only screen and (max-width: 460px) {
+  .x {
+    height: 330px;
+    width: 380px;
+  }
+  .course-card__container {
+    transform: scale(80%);
+  }
+}
