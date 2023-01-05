@@ -25,7 +25,7 @@ const Details = () => {
   function getLectureDownloadURL(name) {
     const lectureLink = ref(storage, `${courseID}/${name}`);
     getDownloadURL(lectureLink).then((res) => {
-      window.open(res);
+      window.location.href = res;
     });
   }
 
@@ -39,13 +39,13 @@ const Details = () => {
     });
   }
 
-  function downloadAllLectures() {
-    if (lecturesDownloadURL.length > 0) {
-      for (let i = 0; i < lecturesDownloadURL.length; i++) {
-        window.open(lecturesDownloadURL[i]);
-      }
-    }
-  }
+  // function downloadAllLectures() {
+  //   if (lecturesDownloadURL.length > 0) {
+  //     for (let i = 0; i < lecturesDownloadURL.length; i++) {
+  //       window.location.href(lecturesDownloadURL[i]);
+  //     }
+  //   }
+  // }
   useEffect(() => {
     getLecturesMetadata();
     getAllLectureDownloadURL();
@@ -61,12 +61,6 @@ const Details = () => {
         <div className="details-page__table">
           <div className="detail-page__table-heading">
             <h2>Course sheets</h2>
-            <button
-              className="download-all-btn"
-              onClick={() => downloadAllLectures()}
-            >
-              Download all
-            </button>
           </div>
           {lecturesMetadata?.map((item, i) => {
             const { name, timeCreated, size } = item;
@@ -75,15 +69,15 @@ const Details = () => {
               <>
                 <div key={i} className="detail-page__table-row">
                   <div className="detail-page__table-row-course-info">
-                    <h3
-                      className="detail-page__table-row-heading"
-                      onClick={(e) => getLectureDownloadURL(name)}
-                    >
-                      {name}
-                    </h3>
+                    <h3 className="detail-page__table-row-heading">{name}</h3>
                     <h5>{x.substring(0, 4) + " MB"}</h5>
                   </div>
-                  <h4>{timeCreated.slice(0, 10)}</h4>
+                  <button
+                    className="download-btn"
+                    onClick={(e) => getLectureDownloadURL(name)}
+                  >
+                    Download
+                  </button>
                 </div>
               </>
             );

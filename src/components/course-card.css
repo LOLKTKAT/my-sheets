@@ -146,3 +146,12 @@ a {
     transform: scale(80%);
   }
 }
+@media only screen and (max-width: 382px) {
+  .x {
+    height: 260px;
+    width: 330px;
+  }
+  .course-card__container {
+    transform: scale(70%);
+  }
+}
