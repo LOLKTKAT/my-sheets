@@ -23,3 +23,15 @@
   top: 3px;
   opacity: 0.6;
 }
+.logo {
+  background-color: #58b8ff;
+  padding: 8px 24px 8px 24px;
+  font-weight: 700;
+  color: black;
+  border: 2px solid black;
+  border-radius: 2px;
+  width: 120px;
+  -webkit-box-shadow: 3px 3px 0px 1px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 3px 3px 0px 1px rgba(0, 0, 0, 1);
+  box-shadow: 3px 3px 0px 1px rgba(0, 0, 0, 1);
+}

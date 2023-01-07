@@ -45,7 +45,7 @@ export const courseInfo = [
   },
   {
     id: 6,
-    name: "internet Technology",
+    name: "internet technology",
     bg_color: "rgb(210, 255, 206)",
     poster: ILLUSTRATIONS[6],
     lecturer: "Dr. Hajer",

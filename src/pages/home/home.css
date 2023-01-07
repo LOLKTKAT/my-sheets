@@ -1,6 +1,7 @@
 .home {
   padding: 30px;
   overflow: hidden;
+  width: 100%;
 }
 .home__cards-container {
   /* display: flex;
