@@ -9,7 +9,6 @@ import "./details.css";
 
 const Details = () => {
   const [lecturesMetadata, setLecturesMetadata] = useState([]);
-  const [lecturesDownloadURL, setLecturesDownloadURL] = useState([]);
   const [loading, setLoading] = useState(true);
   const { courseID } = useParams();
 
@@ -40,13 +39,6 @@ const Details = () => {
     }
   }
 
-  // function downloadAllLectures() {
-  //   if (lecturesDownloadURL.length > 0) {
-  //     for (let i = 0; i < lecturesDownloadURL.length; i++) {
-  //       window.location.href(lecturesDownloadURL[i]);
-  //     }
-  //   }
-  // }
   useEffect(() => {
     getLecturesMetadata();
   }, []);
