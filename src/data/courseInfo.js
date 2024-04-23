@@ -33,14 +33,14 @@ export const courseInfo = [
   {
     id: 4,
     name: "Simulation and modeling",
-    bg_color: "rgb(200, 222, 255)",
+    bg_color: "rgb(255, 186, 218)",
     poster: ILLUSTRATIONS[4],
     lecturer: "unkown",
   },
   {
     id: 5,
     name: "database application",
-    bg_color: "rgb(200, 222, 255)",
+    bg_color: "rgb(255, 206, 253)",
     poster: ILLUSTRATIONS[5],
     lecturer: "unkown",
   },
