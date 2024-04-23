@@ -22,4 +22,25 @@ export const courseInfo = [
     poster: ILLUSTRATIONS[2],
     lecturer: "unkown",
   },
+  {
+    id: 3,
+    name: "E-business",
+    bg_color: "rgb(200, 222, 255)",
+    poster: ILLUSTRATIONS[3],
+    lecturer: "unkown",
+  },
+  {
+    id: 4,
+    name: "Simulation and modeling",
+    bg_color: "rgb(200, 222, 255)",
+    poster: ILLUSTRATIONS[4],
+    lecturer: "unkown",
+  },
+  {
+    id: 5,
+    name: "database application",
+    bg_color: "rgb(200, 222, 255)",
+    poster: ILLUSTRATIONS[5],
+    lecturer: "unkown",
+  },
 ];
