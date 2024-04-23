@@ -1,4 +1,5 @@
 import { ILLUSTRATIONS } from "../assets/images/illustrations";
+import { courseCardColors } from "./courseCardColors";
 
 export const courseInfo = [
   {
@@ -25,7 +26,7 @@ export const courseInfo = [
   {
     id: 3,
     name: "E-business",
-    bg_color: "rgb(200, 222, 255)",
+    bg_color: courseCardColors[3],
     poster: ILLUSTRATIONS[3],
     lecturer: "unkown",
   },
