@@ -75,7 +75,7 @@ const Details = () => {
                       className="download-btn"
                       onClick={(e) => getLectureDownloadURL(name)}
                     >
-                      Download
+                      View
                     </button>
                   </div>
                 </>
