@@ -44,4 +44,18 @@ export const courseInfo = [
     poster: ILLUSTRATIONS[5],
     lecturer: "unkown",
   },
+  {
+    id: 6,
+    name: "data mining",
+    bg_color: courseCardColors[6],
+    poster: ILLUSTRATIONS[6],
+    lecturer: "unkown",
+  },
+  {
+    id: 7,
+    name: "Software engineering 2",
+    bg_color: courseCardColors[7],
+    poster: ILLUSTRATIONS[7],
+    lecturer: "unkown",
+  },
 ];
